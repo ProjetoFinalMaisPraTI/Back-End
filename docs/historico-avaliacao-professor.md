@@ -34,3 +34,6 @@ A entidade Ganho complementa o fluxo financeiro com entradas, origem e datas de 
 
 ## feat: cria repositories JPA
 Os repositórios foram criados para buscar dados por usuário, período e filtros mensais.
+
+## feat: cria DTOs de entrada e saída
+Os DTOs isolam a API de persistência e validam a comunicação entre as camadas do sistema.
