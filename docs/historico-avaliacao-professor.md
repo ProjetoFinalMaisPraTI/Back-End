@@ -64,3 +64,6 @@ Os testes de ganho seguem o mesmo padrão para garantir consistência da lógica fi
 
 ## fix: ajusta validações e regras do negócio
 Ajustes de validação e filtros foram realizados para manter a integridade das operações financeiras.
+
+## chore: revisa preparação para pull request
+O projeto foi revisado como conjunto de entregas pequenas e organizadas para facilitar análise do professor e do orientador.
