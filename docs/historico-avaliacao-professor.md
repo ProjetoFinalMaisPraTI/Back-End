@@ -37,3 +37,6 @@ Os repositórios foram criados para buscar dados por usuário, período e filtros m
 
 ## feat: cria DTOs de entrada e saída
 Os DTOs isolam a API de persistência e validam a comunicação entre as camadas do sistema.
+
+## feat: implementa service de usuários
+A lógica de criação, leitura, atualização e exclusão de usuários foi centralizada no serviço.
