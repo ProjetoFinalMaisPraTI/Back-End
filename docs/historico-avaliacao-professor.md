@@ -52,3 +52,6 @@ As APIs de usuários, despesas e ganhos foram expostas com endpoints REST seguind
 
 ## config: configura segurança
 A segurança básica foi preparada com BCrypt e infraestrutura para futuras autenticações e controle de acesso.
+
+## test: adiciona testes de usuário
+Os testes unitários cobrem criação, busca, atualização, exclusão e validação de e-mail duplicado.
