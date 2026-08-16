@@ -55,3 +55,6 @@ A segurança básica foi preparada com BCrypt e infraestrutura para futuras autent
 
 ## test: adiciona testes de usuário
 Os testes unitários cobrem criação, busca, atualização, exclusão e validação de e-mail duplicado.
+
+## test: adiciona testes de despesas
+Os testes de despesa validam criação, listagem por usuário, busca por mês e remoção de registros.
