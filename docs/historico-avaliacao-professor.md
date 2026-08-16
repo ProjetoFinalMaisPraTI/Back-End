@@ -19,3 +19,6 @@ O pom.xml foi organizado para incluir dependências de Web, JPA, Security, valida
 
 ## config: define propriedades da aplicação
 As configurações do ambiente usam variáveis para facilitar execução local e integração com PostgreSQL.
+
+## feat: inicia estrutura de usuários
+A entidade principal de usuários foi planejada com autenticação, e-mail e dados cadastrais essenciais.
