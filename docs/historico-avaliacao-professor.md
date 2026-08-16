@@ -22,3 +22,6 @@ As configurações do ambiente usam variáveis para facilitar execução local e inte
 
 ## feat: inicia estrutura de usuários
 A entidade principal de usuários foi planejada com autenticação, e-mail e dados cadastrais essenciais.
+
+## feat: cria entidade Usuario
+A classe UsuarioEntity foi modelada com campos de identificação, dados pessoais, auditoria e relacionamento com movimentos financeiros.
