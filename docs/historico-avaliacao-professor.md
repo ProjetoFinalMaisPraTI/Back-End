@@ -13,3 +13,6 @@ A solução usa Spring Boot, JPA, PostgreSQL e padrões REST para separar camadas e
 
 ## docs: descreve stack tecnológica
 Java 21, Maven, Spring Boot 4.1.0, PostgreSQL, Lombok e JUnit 5 são os pilares da entrega atual.
+
+## config: ajusta projeto Maven
+O pom.xml foi organizado para incluir dependências de Web, JPA, Security, validação e testes unitários.
