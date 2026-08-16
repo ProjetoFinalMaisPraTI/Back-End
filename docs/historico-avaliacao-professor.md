@@ -61,3 +61,6 @@ Os testes de despesa validam criação, listagem por usuário, busca por mês e remo
 
 ## test: adiciona testes de ganhos
 Os testes de ganho seguem o mesmo padrão para garantir consistência da lógica financeira.
+
+## fix: ajusta validações e regras do negócio
+Ajustes de validação e filtros foram realizados para manter a integridade das operações financeiras.
