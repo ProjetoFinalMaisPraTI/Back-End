@@ -43,3 +43,6 @@ A lógica de criação, leitura, atualização e exclusão de usuários foi centralizad
 
 ## feat: implementa service de despesas
 O serviço de despesas valida usuário, persiste transações e filtra por mês e período.
+
+## feat: implementa service de ganhos
+O serviço de ganhos oferece o mesmo padrão de organização para receitas e lançamentos de entrada.
