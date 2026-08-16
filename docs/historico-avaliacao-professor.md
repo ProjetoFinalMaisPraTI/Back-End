@@ -4,3 +4,6 @@ Este arquivo registra a evolução do sistema de ajuda financeira e serve como evi
 
 ## docs: registra visão geral do sistema
 A aplicação foi pensada para apoiar controle financeiro pessoal com foco em receitas, despesas e relatórios mensais.
+
+## docs: detalha requisitos do projeto
+Os requisitos definem gestão de usuários, lançamentos financeiros, filtros por mês e relatórios de saldo.
