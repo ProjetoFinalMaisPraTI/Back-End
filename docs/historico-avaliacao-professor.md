@@ -28,3 +28,6 @@ A classe UsuarioEntity foi modelada com campos de identificação, dados pessoais,
 
 ## feat: cria entidade Despesa
 A entidade Despesa foi estruturada com valor, data, categoria e controle de recorrência e status de pagamento.
+
+## feat: cria entidade Ganho
+A entidade Ganho complementa o fluxo financeiro com entradas, origem e datas de controle.
