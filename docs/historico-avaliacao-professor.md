@@ -10,3 +10,6 @@ Os requisitos definem gestão de usuários, lançamentos financeiros, filtros por m
 
 ## docs: documenta arquitetura backend
 A solução usa Spring Boot, JPA, PostgreSQL e padrões REST para separar camadas e facilitar manutenção.
+
+## docs: descreve stack tecnológica
+Java 21, Maven, Spring Boot 4.1.0, PostgreSQL, Lombok e JUnit 5 são os pilares da entrega atual.
