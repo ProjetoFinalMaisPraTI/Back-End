@@ -25,3 +25,6 @@ A entidade principal de usuários foi planejada com autenticação, e-mail e dados 
 
 ## feat: cria entidade Usuario
 A classe UsuarioEntity foi modelada com campos de identificação, dados pessoais, auditoria e relacionamento com movimentos financeiros.
+
+## feat: cria entidade Despesa
+A entidade Despesa foi estruturada com valor, data, categoria e controle de recorrência e status de pagamento.
