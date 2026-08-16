@@ -58,3 +58,6 @@ Os testes unitários cobrem criação, busca, atualização, exclusão e validação de 
 
 ## test: adiciona testes de despesas
 Os testes de despesa validam criação, listagem por usuário, busca por mês e remoção de registros.
+
+## test: adiciona testes de ganhos
+Os testes de ganho seguem o mesmo padrão para garantir consistência da lógica financeira.
