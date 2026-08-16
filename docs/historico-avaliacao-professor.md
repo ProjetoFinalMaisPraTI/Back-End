@@ -40,3 +40,6 @@ Os DTOs isolam a API de persistência e validam a comunicação entre as camadas do
 
 ## feat: implementa service de usuários
 A lógica de criação, leitura, atualização e exclusão de usuários foi centralizada no serviço.
+
+## feat: implementa service de despesas
+O serviço de despesas valida usuário, persiste transações e filtra por mês e período.
