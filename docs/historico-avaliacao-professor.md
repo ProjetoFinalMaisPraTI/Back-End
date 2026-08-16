@@ -46,3 +46,6 @@ O serviço de despesas valida usuário, persiste transações e filtra por mês e per
 
 ## feat: implementa service de ganhos
 O serviço de ganhos oferece o mesmo padrão de organização para receitas e lançamentos de entrada.
+
+## feat: implementa controllers REST
+As APIs de usuários, despesas e ganhos foram expostas com endpoints REST seguindo convenções HTTP.
