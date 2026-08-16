@@ -16,3 +16,6 @@ Java 21, Maven, Spring Boot 4.1.0, PostgreSQL, Lombok e JUnit 5 são os pilares d
 
 ## config: ajusta projeto Maven
 O pom.xml foi organizado para incluir dependências de Web, JPA, Security, validação e testes unitários.
+
+## config: define propriedades da aplicação
+As configurações do ambiente usam variáveis para facilitar execução local e integração com PostgreSQL.
