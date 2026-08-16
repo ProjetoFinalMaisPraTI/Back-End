@@ -49,3 +49,6 @@ O serviço de ganhos oferece o mesmo padrão de organização para receitas e lançam
 
 ## feat: implementa controllers REST
 As APIs de usuários, despesas e ganhos foram expostas com endpoints REST seguindo convenções HTTP.
+
+## config: configura segurança
+A segurança básica foi preparada com BCrypt e infraestrutura para futuras autenticações e controle de acesso.
