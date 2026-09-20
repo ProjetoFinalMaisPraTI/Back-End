@@ -43,3 +43,9 @@ A l�gica de cria��o, leitura, atualiza��o e exclus�o de usu�rios f
 
 ## feat: implementa service de despesas
 O servi�o de despesas valida usu�rio, persiste transa��es e filtra por m�s e per�odo.
+
+## feat: implementa service de ganhos
+O servi�o de ganhos oferece o mesmo padr�o de organiza��o para receitas e lan�amentos de entrada.
+
+## feat: implementa controllers REST
+As APIs de usu�rios, despesas e ganhos foram expostas com endpoints REST seguindo conven��es HTTP.
