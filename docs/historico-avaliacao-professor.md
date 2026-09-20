@@ -1,36 +1,36 @@
-# Histórico de evolução do projeto
+# Histï¿½rico de evoluï¿½ï¿½o do projeto
 
-Este arquivo registra a evolução do sistema de ajuda financeira e serve como evidência de progresso para a avaliação do professor.
+Este arquivo registra a evoluï¿½ï¿½o do sistema de ajuda financeira e serve como evidï¿½ncia de progresso para a avaliaï¿½ï¿½o do professor.
 
-## docs: registra visão geral do sistema
-A aplicação foi pensada para apoiar controle financeiro pessoal com foco em receitas, despesas e relatórios mensais.
+## docs: registra visï¿½o geral do sistema
+A aplicaï¿½ï¿½o foi pensada para apoiar controle financeiro pessoal com foco em receitas, despesas e relatï¿½rios mensais.
 
 ## docs: detalha requisitos do projeto
-Os requisitos definem gestão de usuários, lançamentos financeiros, filtros por mês e relatórios de saldo.
+Os requisitos definem gestï¿½o de usuï¿½rios, lanï¿½amentos financeiros, filtros por mï¿½s e relatï¿½rios de saldo.
 
 ## docs: documenta arquitetura backend
-A solução usa Spring Boot, JPA, PostgreSQL e padrões REST para separar camadas e facilitar manutenção.
+A soluï¿½ï¿½o usa Spring Boot, JPA, PostgreSQL e padrï¿½es REST para separar camadas e facilitar manutenï¿½ï¿½o.
 
-## docs: descreve stack tecnológica
-Java 21, Maven, Spring Boot 4.1.0, PostgreSQL, Lombok e JUnit 5 são os pilares da entrega atual.
+## docs: descreve stack tecnolï¿½gica
+Java 21, Maven, Spring Boot 4.1.0, PostgreSQL, Lombok e JUnit 5 sï¿½o os pilares da entrega atual.
 
 ## config: ajusta projeto Maven
-O pom.xml foi organizado para incluir dependências de Web, JPA, Security, validação e testes unitários.
+O pom.xml foi organizado para incluir dependï¿½ncias de Web, JPA, Security, validaï¿½ï¿½o e testes unitï¿½rios.
 
-## config: define propriedades da aplicação
-As configurações do ambiente usam variáveis para facilitar execução local e integração com PostgreSQL.
+## config: define propriedades da aplicaï¿½ï¿½o
+As configuraï¿½ï¿½es do ambiente usam variï¿½veis para facilitar execuï¿½ï¿½o local e integraï¿½ï¿½o com PostgreSQL.
 
-## feat: inicia estrutura de usuários
-A entidade principal de usuários foi planejada com autenticação, e-mail e dados cadastrais essenciais.
+## feat: inicia estrutura de usuï¿½rios
+A entidade principal de usuï¿½rios foi planejada com autenticaï¿½ï¿½o, e-mail e dados cadastrais essenciais.
 
 ## feat: cria entidade Usuario
-A classe UsuarioEntity foi modelada com campos de identificação, dados pessoais, auditoria e relacionamento com movimentos financeiros.
+A classe UsuarioEntity foi modelada com campos de identificaï¿½ï¿½o, dados pessoais, auditoria e relacionamento com movimentos financeiros.
 
 ## feat: cria entidade Despesa
-A entidade Despesa foi estruturada com valor, data, categoria e controle de recorrência e status de pagamento.
+A entidade Despesa foi estruturada com valor, data, categoria e controle de recorrï¿½ncia e status de pagamento.
 
 ## feat: cria entidade Ganho
 A entidade Ganho complementa o fluxo financeiro com entradas, origem e datas de controle.
 
 ## feat: cria repositories JPA
-Os repositórios foram criados para buscar dados por usuário, período e filtros mensais.
+Os repositï¿½rios foram criados para buscar dados por usuï¿½rio, perï¿½odo e filtros mensais.
