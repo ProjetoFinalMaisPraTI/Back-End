@@ -64,3 +64,6 @@ Os testes de ganho seguem o mesmo padr�o para garantir consist�ncia da l�g
 
 ## fix: ajusta valida��es e regras do neg�cio
 Ajustes de valida��o e filtros foram realizados para manter a integridade das opera��es financeiras.
+
+## chore: revisa prepara��o para pull request
+O projeto foi revisado como conjunto de entregas pequenas e organizadas para facilitar an�lise do professor e do orientador.
