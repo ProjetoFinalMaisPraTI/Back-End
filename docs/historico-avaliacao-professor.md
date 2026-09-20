@@ -37,4 +37,9 @@ Os reposit�rios foram criados para buscar dados por usu�rio, per�odo e fil
 
 ## feat: cria DTOs de entrada e sa�da
 Os DTOs isolam a API de persist�ncia e validam a comunica��o entre as camadas do sistema.
-Os reposit�rios foram criados para buscar dados por usu�rio, per�odo e filtros mensais.
+
+## feat: implementa service de usu�rios
+A l�gica de cria��o, leitura, atualiza��o e exclus�o de usu�rios foi centralizada no servi�o.
+
+## feat: implementa service de despesas
+O servi�o de despesas valida usu�rio, persiste transa��es e filtra por m�s e per�odo.
