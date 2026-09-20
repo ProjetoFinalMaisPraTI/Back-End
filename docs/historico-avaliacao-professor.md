@@ -52,3 +52,12 @@ As APIs de usu�rios, despesas e ganhos foram expostas com endpoints REST segui
 
 ## config: configura seguran�a
 A seguran�a b�sica foi preparada com BCrypt e infraestrutura para futuras autentica��es e controle de acesso.
+
+## test: adiciona testes de usu�rio
+Os testes unit�rios cobrem cria��o, busca, atualiza��o, exclus�o e valida��o de e-mail duplicado.
+
+## test: adiciona testes de despesas
+Os testes de despesa validam cria��o, listagem por usu�rio, busca por m�s e remo��o de registros.
+
+## test: adiciona testes de ganhos
+Os testes de ganho seguem o mesmo padr�o para garantir consist�ncia da l�gica financeira.
