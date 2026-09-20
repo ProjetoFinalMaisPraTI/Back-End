@@ -61,3 +61,6 @@ Os testes de despesa validam cria��o, listagem por usu�rio, busca por m�
 
 ## test: adiciona testes de ganhos
 Os testes de ganho seguem o mesmo padr�o para garantir consist�ncia da l�gica financeira.
+
+## fix: ajusta valida��es e regras do neg�cio
+Ajustes de valida��o e filtros foram realizados para manter a integridade das opera��es financeiras.
