@@ -34,3 +34,7 @@ A entidade Ganho complementa o fluxo financeiro com entradas, origem e datas de 
 
 ## feat: cria repositories JPA
 Os reposit�rios foram criados para buscar dados por usu�rio, per�odo e filtros mensais.
+
+## feat: cria DTOs de entrada e sa�da
+Os DTOs isolam a API de persist�ncia e validam a comunica��o entre as camadas do sistema.
+Os reposit�rios foram criados para buscar dados por usu�rio, per�odo e filtros mensais.
