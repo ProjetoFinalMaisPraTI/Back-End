@@ -1,12 +1,18 @@
 package com.example.sistemafinanceiro.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import java.time.LocalDate;
 
-@Data
 @Entity
 @Table(name = "transacoes")
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class TransacaoEntity {
 
     @Id
@@ -17,12 +23,14 @@ public class TransacaoEntity {
     private Double valor;
     private LocalDate data;
     private Boolean parcelado;
-    private String qtdParcelas;
-    
-    @Column(length = 500)
+    private Integer qtdParcelas;
     private String descricao;
-    
     private String recorrente;
-    private String repetirDias;
-    private String tipo; // "despesa" ou "ganho"
+    private Integer repetirDias;
+    private String tipo;
+
+    // Adiciona esta relação para vincular a transação ao usuário logado
+    @ManyToOne
+    @JoinColumn(name = "usuario_id", nullable = false)
+    private UsuarioEntity usuario;
 }

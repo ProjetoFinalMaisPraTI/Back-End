@@ -1,11 +1,13 @@
 package com.example.sistemafinanceiro.controller;
 
 import com.example.sistemafinanceiro.entity.TransacaoEntity;
+import com.example.sistemafinanceiro.entity.UsuarioEntity;
 import com.example.sistemafinanceiro.repository.TransacaoRepository;
+import com.example.sistemafinanceiro.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import java.security.Principal;
 import java.util.List;
 
 @RestController
@@ -15,13 +17,26 @@ public class TransacaoController {
     @Autowired
     private TransacaoRepository transacaoRepository;
 
+    @Autowired
+    private UsuarioRepository usuarioRepository;
+
     @GetMapping
-    public List<TransacaoEntity> listar() {
-        return transacaoRepository.findAll();
+    public ResponseEntity<List<TransacaoEntity>> listar(Principal principal) {
+        String email = principal.getName();
+        UsuarioEntity usuario = usuarioRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("Utilizador não encontrado"));
+        
+        List<TransacaoEntity> transacoes = transacaoRepository.findByUsuario(usuario);
+        return ResponseEntity.ok(transacoes);
     }
 
     @PostMapping
-    public ResponseEntity<TransacaoEntity> criar(@RequestBody TransacaoEntity transacao) {
+    public ResponseEntity<TransacaoEntity> criar(@RequestBody TransacaoEntity transacao, Principal principal) {
+        String email = principal.getName();
+        UsuarioEntity usuario = usuarioRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("Utilizador não encontrado"));
+        
+        transacao.setUsuario(usuario);
         TransacaoEntity novaTransacao = transacaoRepository.save(transacao);
         return ResponseEntity.ok(novaTransacao);
     }
