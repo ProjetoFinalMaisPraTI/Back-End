@@ -32,7 +32,7 @@ public class UsuarioServiceImpl implements UsuarioService {
         UsuarioEntity usuario = UsuarioEntity.builder()
                 .nome(usuarioDTO.getNome())
                 .email(usuarioDTO.getEmail())
-                .senha(passwordEncoder.encode(usuarioDTO.getEmail())) // Será substituído por senha real no login
+                .senha(passwordEncoder.encode(usuarioDTO.getSenha())) // Será substituído por senha real no login
                 .telefone(usuarioDTO.getTelefone())
                 .dataNascimento(usuarioDTO.getDataNascimento())
                 .cpf(usuarioDTO.getCpf())

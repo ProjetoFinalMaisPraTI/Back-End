@@ -21,7 +21,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/usuarios")
-@CrossOrigin(origins = "*", maxAge = 3600)
 @Tag(name = "Usuários", description = "Cadastro e gerenciamento de usuários do sistema")
 public class UsuarioController {
 
