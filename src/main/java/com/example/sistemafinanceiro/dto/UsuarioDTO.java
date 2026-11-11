@@ -3,6 +3,7 @@ package com.example.sistemafinanceiro.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -28,6 +29,11 @@ public class UsuarioDTO {
     @Email(message = "Email deve ser válido")
     @Schema(description = "Endereço de e-mail (deve ser único)", example = "joao@email.com", requiredMode = Schema.RequiredMode.REQUIRED)
     private String email;
+
+    @NotBlank(message = "A senha é obrigatória")
+    @Size(min = 6, message = "A senha deve ter pelo menos 6 caracteres")
+    @Schema(description = "Senha de acesso do usuário", example = "senha123", requiredMode = Schema.RequiredMode.REQUIRED)
+    private String senha;
 
     @Schema(description = "Número de telefone", example = "(51) 99999-0000")
     private String telefone;
